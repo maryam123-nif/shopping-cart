@@ -1,0 +1,136 @@
+body{
+	background-image: url("../images/background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.logo{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+h1{
+	font-size: 40px;
+	text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bttn1{
+	
+		width: 150px;
+		height: 40px;
+		border-radius: 9999px; /* Ensures maximum roundness */
+		border: 1px solid black;
+		background-color: rgb(55, 3, 39);
+		color: white;
+		cursor: pointer;
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		font-size: larger;	  		
+}
+.bttn2{
+
+		width: 250px;
+		height: 40px;
+		border-radius: 20px;
+		border: none;
+		background-color: #030c2d;
+		color: white;
+		cursor: pointer;
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		font-size: larger;
+	  
+}
+
+.line1{
+  border-top: 5px solid black;
+}
+
+ul.nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#333;
+}
+
+li.list{
+	float: left;
+}
+
+li.list a{
+	display:block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.productData{
+	background-color: #FFFFFF;
+	padding: 3px;
+}
+
+li.list a:hover{
+	background-color: rgb(173, 69, 86);
+}
+.col1{
+	text-align:center;
+}
+div.tbl{
+	margin-top: 15px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.text1{
+	font-size: larger;
+}
+.form-container {
+	background-image: url("../images/form.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	
+  }
+  input,
+textarea {
+ 
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: left;
+}
+label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: black;
+	font-size:medium;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: left;
+  }
+  
+  .bttn3{
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	color: white;
+	background-color: #e2a6dd; 
+	border: 2px solid #553352;
+	border-radius: 10px; /* Rounded corners */
+	cursor: pointer;
+	text-align: center;
+	transition: background-color 0.3s ease, color 0.3s ease;
+	text-decoration: none;
+  }
+  
+  .bttn3:hover {
+	background-color: white;
+	color: #4CAF50; /* Green text on hover */
+  }
+  
