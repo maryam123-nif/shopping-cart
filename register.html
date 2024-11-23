@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="styles/style.css">
+	<title>My Shopping Cart</title>
+</head>
+<body>
+    <
+<!-- add a logo (b) -->
+<img src="images/logo.png" width="200" height="200" alt="Shopping cart logo" class="logo">
+<!-- add a header (c)-->
+<h1>Shopping Cart</h1>
+	<!-- add a sub-header (c) -->
+	<h3 align="center">The online Shopping Store</h3>
+<!-- add a horizontal line (d)-->
+<hr class="line1">
+<!-- add a horizontal menu (e) -->
+<ul class="nav">
+<li class="list"> <a href="index.html">Home</a></li>
+<li class ="list"> <a href="news.html">News</a></li>
+<li class ="list"> <a href="register.html">Contact us</a> </li>
+<li class ="list"> <a href="about.php">About us</a> </li>
+</ul>
+<h2 align="center">Registration Form</h2>
+<div class="form-container"><center><form method="post" action="submitRegistration.php">
+    <fieldset style="width:25%; text-align: left;">
+    <label for="name">First Name</label>
+    <input type="text" name="fname" placeholder="First Name" required><br><br>
+    <label>Last Name</label>
+    <input type="text" name="lname" placeholder="Last Name" required><br><br>
+    <label>Gender</label><br><br>
+    <input type="radio" name="gender" value="Male" checked>Male
+    <input type="radio" name="gender" value="Female">Female<br><br>
+    <label>Mobile Number</label>
+    <input type="tel" pattern="[0-9]{10}"name="mnumber" placeholder="0762358595" required><br><br>
+    <label>Email</label>
+    <input type="email" name="email" placeholder="abc@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,8}$" required><br><br>
+    <label>Address</label>
+    <textarea name="address" rows="4" cols="50" required></textarea><br><br>
+    <label>Choose your DOB</label>
+    <input type="date" name="dob" required><br><br>
+    <label>Password</label>
+    <input type="password" name="password" required><br><br>
+    <label>Re-enter Password</label>
+    <input type="password" name="rpassword" required><br><br>
+    <input type="checkbox" class="inputStyle" id="checkbox" onclick="enableButton()">Accept privacy policy and terms<br><br>
+    <input type="submit" value="Submit"  class= "bttn1" id="submitBtn" style="text-align: center;" disabled>
+
+</fieldset>
+</form></center>
+
+
+</div>
+<!-- add a footer (g)-->
+ <center><h3>Created By : Maryam Nifal</h3>
+	<h3><a href="https://courseweb.sliit.lk/my/">Visit this course</h3></center>
+</body>
+</html>

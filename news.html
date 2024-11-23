@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="styles/style.css">
+	<script src ="js/myScript.js"></script>
+	<title>My Shopping Cart</title>
+	<script>
+		document.write(Date());
+	</script>
+</head>
+<body>
+<!-- add a logo (b) -->
+<img src="images/logo.png" width="200" height="200" alt="Shopping cart logo" class="logo">
+<!-- add a header (c)-->
+<h1>Shopping Cart</h1>
+<!-- add a sub-header (c) -->
+<h3 align="center">The online Shopping Store</h3>
+<!-- add a horizontal line (d)-->
+<hr class="line1">
+<!-- add a horizontal menu (e) -->
+<ul class="nav">
+<li class="list"> <a href="index.html">Home</a></li>
+<li class ="list"> <a href="#">News</a></li>
+<li class ="list"> <a href="register.html">Contact us</a> </li>
+<li class ="list"> <a href="about.php">About us</a> </li>
+</ul>
+<br><br>
+<div><center>
+<button class="bttn1" type="button" id="btn1" onclick="loadData('btn1')"><b>IPhone</b></button>
+<button class="bttn1" type="button" id="btn2"  onclick="loadData('btn2')" ><b>Nokia</b></button>
+<button class="bttn1" type="button" id="btn3"  onclick="loadData('btn3')"><b>Samsung</b></button><br><br>
+<button class="bttn2" type="button" id="btn4"  onclick="productForInLoop()">Average Price</button><br><br>
+<button class="bttn2" type="button" id="btn5"  onclick="priceHigher()" >Prices higher than 1000</button><br><br>
+<button class="bttn2" type="button" id="btn6"  onclick="priceLower ()"> Prices lower than 1000 </button></center>
+</div>
+<br><br>
+<!--landing image--><center>
+<img id="image1" src="images/mobiles.jpeg">
+<p class="text1" id="para"> Mobile phones are significant in this modern world.<br>
+	The technogoly has grown up due to the invention of mobile phones.
+</p></center>
+
+<!-- add a horizontal line (d)-->
+<hr>
+<!-- add a footer (g)-->
+ <center><h3>Created By : Maryam Nifal</h3>
+	<h3><a href="https://courseweb.sliit.lk/my/">Visit this course</h3></center>
+</body>
+</html>

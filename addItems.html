@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="styles/style.css">
+	<title>My Shopping Cart</title>
+</head>
+<body>
+<!-- add a logo (b) -->
+<img src="images/logo.png" width="200" height="200" alt="Shopping cart logo" class="logo">
+<!-- add a header (c)-->
+<h1>Shopping Cart</h1>
+	<!-- add a sub-header (c) -->
+	<h3 align="center">The online Shopping Store</h3>
+<!-- add a horizontal line (d)-->
+<hr class="line1">
+<!-- add a horizontal menu (e) -->
+<ul class="nav">
+<li class="list"> <a href="index.html">Home</a></li>
+<li class ="list"> <a href="news.html">News</a></li>
+<li class ="list"> <a href="register.html">Contact us</a> </li>
+<li class ="list"> <a href="about.php">About us</a> </li>
+</ul>
+<br>
+<center>
+    <form action="submitAddItems.php" method="post">
+        <fieldset style="width:25%; text-align:left;">
+            Item Name:<br>
+        <input type="text" name="field1"><br><br>
+        Price:<br>
+        <input type="text" name="field2"><br><br>
+        Quantity:<br>
+        <input type="text" name="field3"><br><br>
+        Description:<br>
+        <textarea name="field4" rows="8" cols="50"></textarea><br><br>
+        <input type="submit" value="Submit" class="bttn1">
+        </fieldset>
+    </form>
+</center>
+
+<!-- add a horizontal line (d)-->
+<hr>
+<!-- add a footer (g)-->
+ <center><p>Created By : Maryam Nifal</p>
+	<p><a href="https://courseweb.sliit.lk/my/">Visit this course</p></center>
+</body>
+</html>
